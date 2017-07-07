@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="maventest:war exploded">
+    <output-path>$PROJECT_DIR$/target/maventest</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maventest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver:3.4.2" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.4.2" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.4.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/maventest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="maventest/web/Web" />
+    </root>
+  </artifact>
+</component>
